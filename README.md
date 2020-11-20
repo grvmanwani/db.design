@@ -5,7 +5,8 @@ Q1. You have a list of strings. Write a function to add a string to the list and
 to find the strings which are kth most repeated in the list.
 
 
-//PYHTON SOLUTION
+//PYHTON SOLUTION.
+
 class Solution(object):
 	words=[]
 	
@@ -19,10 +20,9 @@ class Solution(object):
         return data[k-1:k]
 	
 	
-//JAVA SOLUTION
+//JAVA SOLUTION.
 
 public class Test {
-
     List<String> words=new ArrayList<>();
 
     private void addToList(String str){
